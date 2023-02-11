@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html>  
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,13 +23,12 @@
 		.hello{
 			margin-top:130px;
 			font-size: 55px;
-			text-align: justify;
+			/* text-align: justify; */
 			font-family: monospace;
 		}
 		.me{
-			text-align: justify;
-			font-size: 40px;
-			font-family: monospace;
+			/* text-align: justify; */
+			font-size: 40px; 
 		}
 		.hand{
 			height: 43px;
@@ -39,15 +38,82 @@
 			margin-top: 100px;
 			padding: 3px;
 		}
+		.about{
+			margin-top: 80px;
+			font-size: 20px;
+			/* text-align: center;
+			width: 450px;  */
+		}
+		.about-me{
+			width:520px;
+			margin: auto;
+			padding: 4px;
+
+		}
+		.about-me p {
+			margin: 3px;
+			padding: 2px;
+			word-wrap: break-word;
+		}
+		.copy{
+			margin-top: 40px;
+		}
+
+		@media (max-width:700px) {
+			.hello{
+			font-size: 40px;
+			text-align: justify;
+			font-family: monospace;
+		}
+			.me{
+			text-align: justify;
+			font-size: 25px;
+			}
+			.about-me{
+			width:400px;
+			margin: auto;
+
+			}
+			.about-me p {
+				/* word-break: break-all; */
+				word-wrap: break-word;
+				margin: 3px;
+				padding: 2px;
+			}
+		}
 	</style>
 	<div class="con">
 		<h2 class="name"><i>Cletus Olamilekan</i></h2>
 		<h1 class="hello">Hello <img class="hand" src="img/hand.jpeg"/> </h1>
-		<p class="me">I'm Cletus, a Backend Developer</p>
+		<p class="me">I'm Cletus, a Fullstack Developer</p>
 
 		<a href="https://github.com/cletusola"><img class="social" src="img/github.png"/></a>
-		<a href="https://twitter.com/6axis_01"><img class="social" src="img/twi.png"/></a>
+		<a href="https://linkedin.com/in/cletusolamilekan"><img class="social" src="img/li.png"/></a>
+		<a href="mailto:cletusolamic@outlook.com"><img class="social" src="img/out.png"/></a>
+		<a href="https://medium.com/@cletusola"><img class="social" src="img/m.png"/></a>
 		<a href="https://instagram.com/6axis_01"><img class="social" src="img/insta.png"/></a>
+		<a href="https://twitter.com/6axis_01"><img class="social" src="img/twi.png"/></a>
+
+		<h3 class="about">About Me</h3>
+		<div class="about-me">
+			<p>Talented fullstack developer with 3+ years of professional experience.
+				Skilled at designing APIs, databases and user focused experiences. Highly proficient in more than 4 programming languages with
+				expertise in system architecture and application optimization. Enjoys building backend services for web and mobile applications.
+				Passionate about writing clean, maintainable code and working in a collaborative environment.
+			</p>
+		</div>
+		<h3 class="about">Work Experience</h3>
+		<div class="about-me">
+			<p>Backend Developer</p>
+			<p>Horizon software ltd</p>
+			<p><i>January 2019 - January 2023</i></p>
+		</div>
+		<h3 class="about">Education</h3>
+		<div class="about-me">
+			<p>BSc Insurance </p>
+			<p>Lagos State University</p>
+			<p><i>2015-2019</i></p>
+		</div>
 		<p class="copy">&copy; cletusola, 2023</p>
 	</div>
 </body>
