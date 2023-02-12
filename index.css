@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    color: white;
+}
+.con {
+width: 80%;
+margin: auto;
+padding: 3px;
+/* color: black; */
+text-align: center;
+}
+.name{
+    text-align: justify;
+}
+.hello{
+    font-size: 35px;
+    margin-top: 130px;
+    text-align: justify;
+    margin-left: 50px;
+    color: rgb(171, 171, 245);
+}
+.hand{
+    height: 40px;
+}
+.me{
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 50px;
+}
+.contact{
+    margin-top: 80px;
+}
+.social{
+    height: 30px;
+    border-radius: 8px;
+}
+.about-me{
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+}
+.about-w{
+    width: 98%;
+    margin: auto;
+    margin-top: 80px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+.date{
+    font-size: 13px;
+}
+.all{
+    width: 100%;
+    background-color: white;
+    color: black;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+.copy{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.skills{
+    width: 98%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 3px;
+    height: 200px;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    color: white;
+}
+.skills h2{
+    margin-top: 4px;
+}
+@media (max-width:500px) {
+    .hello{
+        font-size: 25px;
+        margin-top: 130px;
+        text-align: justify;
+        margin-left: 20px;
+    }
+    .hand{
+        height: 30px;
+    }
+    .me{
+        font-size: 19px;
+        text-align: justify;
+        margin-left: 20px;
+        }  
+}
+
